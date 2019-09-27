@@ -3,19 +3,41 @@ let count = 0;
 //advances the slide show forward
 function next(){
     if(count == 4){
-        document.getElementById("image").src = arr[count];
+        document.getElementById("image").src = arr[4];
         count = 0;
     }
     else{
         document.getElementById("image").src = arr[count];
-        count = count +1;
+       
     }
     
 }
 
 //goes back a slide
 function previous(){
+    if(count == 0){
+        document.getElementById("image").src = arr[0];
+        count = 4;
+    }
+    else
+    {
+        document.getElementById("image").src = arr[count];
+        
+        
+    }
+}
+//handles direction switching
+//forward = true means forward
+//false means reverse
+function switcher(forward){
+    if(forward == true){
+        count = count + 1;
+        next();
+        
+    }
+    else{
 
+    }
 }
 
 function onPageLoad(){

@@ -1,7 +1,16 @@
 let arr;
+let count = 0;
 //advances the slide show forward
 function next(){
-    document.getElementById("image").src = arr[1];
+    if(count == 4){
+        document.getElementById("image").src = arr[count];
+        count = 0;
+    }
+    else{
+        document.getElementById("image").src = arr[count];
+        count = count +1;
+    }
+    
 }
 
 //goes back a slide
@@ -15,6 +24,6 @@ function onPageLoad(){
     "./images/lightBlue.png",
     "./images/oceanBlue.png",
     "./images/orange.png",
-    "./images/lightGreen"
+    "./images/lightGreen.png"
     ];
 }

@@ -17,7 +17,7 @@ function next(){
 function previous(){
     if(count == 0){
         document.getElementById("image").src = arr[0];
-        count = 4;
+        count = 5;
     }
     else
     {
@@ -31,8 +31,8 @@ function previous(){
 //false means reverse
 function switcher(forward){
     if(forward == true){
-            next();
-            count = count + 1;
+        next();
+        count = count + 1;
     }
     else{
         count = count - 1;

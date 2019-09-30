@@ -5,4 +5,13 @@
 
 body {
     text-align: center;
+    width: 800px;
+    position:relative;
+    left: 325px;
+    
+}
+
+#bioInfo {
+    float: center;
+
 }

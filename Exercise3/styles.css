@@ -21,7 +21,10 @@ h3{
     font-size: 16pt;
     background-color: navy;
     color:white;
-    font-style: bold;
-
 }
 
+.bodyText{
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: sans-serif;
+}

@@ -8,6 +8,7 @@ body {
     width: 800px;
     position:relative;
     left: 325px;
+    background-color: lightcyan;
     
 }
 
@@ -18,4 +19,9 @@ body {
 
 h3{
     font-size: 16pt;
+    background-color: navy;
+    color:white;
+    font-style: bold;
+
 }
+

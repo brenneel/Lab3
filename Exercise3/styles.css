@@ -8,13 +8,17 @@ body {
     width: 800px;
     position:relative;
     left: 325px;
-    background-color: lightcyan;
+    background-image: url(backgroundImage4.jpg);
+    background-size: 100%;
     
+}
+body:hover{
+
 }
 
 #bioInfo {
     float: center;
-
+    
 }
 
 h3{
@@ -27,4 +31,10 @@ h3{
     font-weight: bold;
     font-size: 14pt;
     font-family: sans-serif;
+}
+
+h1{
+    background-color: navy;
+    color:white;
+    
 }

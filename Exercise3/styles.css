@@ -12,8 +12,14 @@ body {
     background-size: 100%;
     
 }
-body:hover{
-
+h3:hover{
+    color:red;
+}
+h1:hover{
+    color: red;
+}
+p:hover{
+    color:red;
 }
 
 #bioInfo {

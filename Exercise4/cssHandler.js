@@ -1,11 +1,20 @@
 //changes the css elements using js
 function submitColors(){
     var myParagraph = document.getElementById("dummyText");
-    var borderRed = document.getElementByI("redBorder").value;
+    var borderRed = document.getElementById("redBorder").value;
     var borderGreen = document.getElementById("greenBorder").value;
     var borderBlue = document.getElementById("blueBorder").value;
-    var borderWidth = document.getElementById("width").value;
+    var width = document.getElementById("width").value;
+    var backgroundRed = document.getElementById("redBackground").value;
+    var backgroundGreen = document.getElementById("greenBackground").value;
+    var backgroundBlue = document.getElementById("blueBackground").value;
 
-    myParagraph.style.backgroundColor =rgb(borderRed,borderGreen,borderBlue);
-    myParagraph.style.borderWidth = borderWidth; 
+    
+
+    //background color section
+    let tempBackgroundColor = "rgb(" + backgroundRed + ',' +backgroundGreen + ',' + backgroundBlue + ')';
+        myParagraph.style.backgroundColor = tempBackgroundColor;
+        console.log(tempBackgroundColor);
+       // myParagraph.style.backgroundColor = "rgb(222,13,234)";
+    
 }

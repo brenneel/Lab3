@@ -2,26 +2,28 @@
     <head>
         <title>JS/CSS Changer</title>
     </head>
-
+    <script src = "cssHandler.js"></script>
     <h1>Color Changer!</h1>
     <body>
-        <p id = "dummyText">A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text. <br>
+        <div id = "dummyText">
+        <p >A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text. <br>
             A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text. <br>
             A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text. <br>
             A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.A paragraph with some dummy text.
         </p>
+         </div>
         <div id = "border" style = "float: left">
             <h3>Border [0-255]:</h3>
-            <input type = "text" id = "redBorder" placeholder = "red value">
-            <input type = "text" id = "greenBorder" placeholder = "green value">
-            <input type = "text" id = "blueBorder" palceholder = "blue value">
-            <input type = "text" id = "width" placeholder = "width">
+            <input type = "number" id = "redBorder" placeholder = "red value">
+            <input type = "number" id = "greenBorder" placeholder = "green value">
+            <input type = "number" id = "blueBorder" placeholder = "blue value">
+            <input type = "number" id = "width" placeholder = "width">
         </div>
         <div id = "background" style = "float: right">
                 <h3>Background Color [0-255]:</h3>
                 <input type = "text" id = "redBackground" placeholder = "red value">
                 <input type = "text" id = "greenBackground" placeholder = "green value">
-                <input type = "text" id = "blueBackground" palceholder = "blue value">
+                <input type = "text" id = "blueBackground" placeholder = "blue value">
 
         </div>
 

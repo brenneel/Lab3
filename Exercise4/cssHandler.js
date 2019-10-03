@@ -9,7 +9,14 @@ function submitColors(){
     var backgroundGreen = document.getElementById("greenBackground").value;
     var backgroundBlue = document.getElementById("blueBackground").value;
 
-    
+    var radius = width + "px";
+    var tempBorderColor = "rgb(" + borderRed + ',' + borderGreen + ',' + borderBlue + ')';
+    console.log(tempBorderColor);
+    console.log(borderRed, borderGreen, borderBlue);
+    var border = (radius + " solid " + tempBorderColor);
+    console.log(border);
+    myParagraph.style.border= border;
+    //myParagraph.style.border = "2px solid rgb(2,250,250)";
 
     //background color section
     let tempBackgroundColor = "rgb(" + backgroundRed + ',' +backgroundGreen + ',' + backgroundBlue + ')';

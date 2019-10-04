@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    background-color:lightsteelblue;
+    background-image: url("kuBackGround.jpg");
     text-align:center;
 }
 #myName {

@@ -1,11 +1,22 @@
 h1 {
     text-align: center;
+    color: navy;
 }
+
 body {
-    color:lightskyblue;
+    background-color:lightsteelblue;
+    text-align:center;
+}
+#myName {
+    color: red;
+    font-weight: bold;
 }
 
-
+p {
+    color:navy;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 
@@ -14,16 +25,19 @@ body {
 *https://www.w3schools.com/howto/howto_js_dropdown.asp
 */
 .dropbtn {
-    background-color: #3498DB;
+    background-color:red;
     color: white;
+    font-weight:bold;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
+    width: 200;
+    height:50px;
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: navy;
   }
   
   .dropdown {
@@ -34,8 +48,8 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: lightgrey;
+    min-width: 200px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

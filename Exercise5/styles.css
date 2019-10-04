@@ -12,6 +12,9 @@ body {
     background-image: url("kuBackGround.jpg");
     text-align:center;
     background-size: 25%;
+    margin: 0 auto;
+    padding:5px;
+    
 }
 #myName {
     color: red;

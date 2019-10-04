@@ -2,10 +2,10 @@ h1 {
     text-align: center;
     color: navy;
     background-color: lightgrey;
-    position:relative;
-    width: 600px;
-    left:450px;
-    
+    margin: 0 auto;
+    width: 50%;
+    padding:10px;
+   
 }
 
 body {
@@ -23,9 +23,8 @@ p {
     font-size: 18px;
     font-weight: bold;
     background-color:lightgrey;
-    position:relative;
-    width:500px;
-    left:500px;
+    margin: 0 auto;
+    width:30%;
     padding:5px;
 }
 

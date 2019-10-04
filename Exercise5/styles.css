@@ -1,8 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
 /*
-*styling used from W3Schools tutorial on drop-down menus
+*styling used from W3Schools tutorial on drop-down menus below
 *https://www.w3schools.com/howto/howto_js_dropdown.asp
 */
-
 .dropbtn {
     background-color: #3498DB;
     color: white;

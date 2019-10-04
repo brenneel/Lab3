@@ -1,11 +1,17 @@
 h1 {
     text-align: center;
     color: navy;
+    background-color: lightgrey;
+    position:relative;
+    width: 600px;
+    left:450px;
+    
 }
 
 body {
     background-image: url("kuBackGround.jpg");
     text-align:center;
+    background-size: 25%;
 }
 #myName {
     color: red;
@@ -16,6 +22,11 @@ p {
     color:navy;
     font-size: 18px;
     font-weight: bold;
+    background-color:lightgrey;
+    position:relative;
+    width:500px;
+    left:500px;
+    padding:5px;
 }
 
 
